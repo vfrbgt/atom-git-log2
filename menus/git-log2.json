@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle git-log2",
+        "command": "git-log2:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "git-log2",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "git-log2:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
