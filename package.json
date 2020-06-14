@@ -1,13 +1,13 @@
 {
   "name": "git-log2",
   "main": "./lib/git-log2",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "0.0.1",
+  "description": "Human friendly git log package",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": "git-log2:show"
   },
-  "repository": "https://github.com/atom/git-log2",
+  "repository": "https://github.com/vfrbgt/git-log2",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
