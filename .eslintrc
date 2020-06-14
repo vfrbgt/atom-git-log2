@@ -14,7 +14,7 @@
     "node": true,
     "es6": true
   },
-  "plugins": ["flowtype"],
+  "plugins": ["react", "react-hooks"],
   "extends": [
     "eslint:recommended"
   ],
@@ -23,7 +23,17 @@
     "no-unused-vars": "warn",
     "no-console": 1,
     "no-unexpected-multiline": "warn",
-    "flowtype/define-flow-type": 1,
-    "flowtype/use-flow-type": 1
+    "react/prop-types": 0,
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
+  },
+  "settings": {
+    "react": {
+      "pragma": "React",
+      "version": "16.13.0"
+    }
+  },
+  "globals": {
+    "atom": "writable"
   }
 }

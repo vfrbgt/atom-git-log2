@@ -1,8 +1,27 @@
-// The ui-variables file is provided by base themes provided by Atom.
-//
-// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
-// for a full listing of what's available.
 @import "ui-variables";
 
 .git-log2 {
+  overflow-y: auto;
+
+  .github-RecentCommit {
+    cursor: pointer;
+  }
+
+  .github-CommitDetailView-metaText {
+    flex: 0.5;
+  }
+
+  .github-RecentCommit-avatar {
+    margin-right: 10px;
+    width: 32px;
+    height: 32px;
+  }
+
+  .github-CommitDetailView-title {
+    flex: 3;
+  }
+
+  .gitlog2-hash:hover {
+    text-decoration: underline;
+  }
 }
