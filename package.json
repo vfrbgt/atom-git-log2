@@ -7,7 +7,7 @@
   "activationCommands": {
     "atom-workspace": "git-log2:show"
   },
-  "repository": "https://github.com/vfrbgt/git-log2",
+  "repository": "https://github.com/vfrbgt/atom-git-log2",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
