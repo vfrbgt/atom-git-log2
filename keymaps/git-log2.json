@@ -1,5 +1,5 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "git-log2:toggle"
+    "ctrl-alt-o": "git-log2:show"
   }
 }

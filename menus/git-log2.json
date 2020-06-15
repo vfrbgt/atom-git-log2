@@ -2,8 +2,8 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle git-log2",
-        "command": "git-log2:toggle"
+        "label": "Show git-log2",
+        "command": "git-log2:show"
       }
     ]
   },
@@ -16,7 +16,7 @@
           "submenu": [
             {
               "label": "Toggle",
-              "command": "git-log2:toggle"
+              "command": "git-log2:show"
             }
           ]
         }

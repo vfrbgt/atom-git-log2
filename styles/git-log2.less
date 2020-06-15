@@ -1,7 +1,12 @@
 @import "ui-variables";
 
 .git-log2 {
-  overflow-y: auto;
+  overflow: hidden;
+
+  .github-StagingView-list {
+    height: 100%;
+    overflow: hidden;
+  }
 
   .github-RecentCommit {
     cursor: pointer;
@@ -23,5 +28,17 @@
 
   .gitlog2-hash:hover {
     text-decoration: underline;
+  }
+
+  .wrapper-commits-list {
+    overflow-y: auto;
+    height: ~"calc(100% - 90px)";
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 33px;
+    width: 100%;
+    height: 40px;
   }
 }
