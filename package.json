@@ -1,7 +1,7 @@
 {
   "name": "git-log2",
   "main": "./lib/git-log2",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Human friendly git log package",
   "keywords": [
     "git",
